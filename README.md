@@ -22,3 +22,7 @@ For a region with share `s_i` in each of `n` categories:
 ```bash
 RDI = 10 × (1 − Σ s_i²) / (1 − 1/n)
 ```
+
+## Analysis
+
+See [ANALYSIS.md](ANALYSIS.md).
