@@ -7,6 +7,7 @@ import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
 import pandas as pd
 from gig import Ent, EntType, GIGTable
+from lanka_data import Db
 from utils import Log
 
 log = Log("Diversity")
@@ -44,32 +45,33 @@ class Diversity:
     def __init__(self, ent_type: EntType):
         self.ent_type = ent_type
 
+    def get_db_results(self):
+        if self.ent_type == EntType.COUNTRY:
+            db_results = Db("/LK/Religion/2024")
+            return {"LK": db_results}
+
+        db_results = Db(f"/LK:{self.ent_type.name.lower()}s/Religion/2024")
+        return db_results
+
     def compute_herfindahl_simpson(self) -> dict[str, tuple[float, str]]:
         ents = Ent.list_from_type(self.ent_type)
         n_ents = len(ents)
         log.info(f"Found {n_ents} {self.ent_type.name} entities")
 
-        gig_table_religion = GIGTable(
-            "population-religion", "regions", "2012"
-        )
+        db_results = self.get_db_results()
         d = {}
         for ent in ents:
-            try:
-                religion = ent.gig(gig_table_religion).dict
-            except Exception as e:
-                log.warning(
-                    f"Could not get religion data for {
-                        ent.name} ({
-                        ent.id}): {e}"
-                )
+            db_result = db_results.get(ent.id)
+            if not db_result:
+                log.warning(f"No DB result for {ent.id} ({ent.name})")
                 continue
-            buddhist = religion.get("buddhist", 0)
-            hindu = religion.get("hindu", 0)
-            muslims = religion.get("islam", 0)
-            christian = religion.get("roman_catholic", 0) + religion.get(
-                "other_christian", 0
+            buddhist = db_result.get("Buddhist", 0)
+            hindu = db_result.get("Hindu", 0)
+            muslims = db_result.get("Islam", 0)
+            christian = db_result.get("RomanCatholic", 0) + db_result.get(
+                "OtherChristian", 0
             )
-            other = religion.get("other", 0)
+            other = db_result.get("Other", 0)
 
             religion_counts = {
                 "buddhist": buddhist,
@@ -224,8 +226,6 @@ if __name__ == "__main__":
         EntType.PROVINCE,
         EntType.DISTRICT,
         EntType.DSD,
-        EntType.ED,
-        EntType.PD,
     ]:
         diversity = Diversity(ent_type)
         diversity.save_hs()

@@ -2,46 +2,46 @@
   {
     "id": "LK-1",
     "name": "Western",
-    "rdi": 5.067
+    "rdi": 5.0359
   },
   {
     "id": "LK-2",
     "name": "Central",
-    "rdi": 6.0773
+    "rdi": 6.0915
   },
   {
     "id": "LK-3",
     "name": "Southern",
-    "rdi": 1.195
+    "rdi": 1.2327
   },
   {
     "id": "LK-4",
     "name": "Northern",
-    "rdi": 4.7467
+    "rdi": 5.1062
   },
   {
     "id": "LK-5",
     "name": "Eastern",
-    "rdi": 8.0154
+    "rdi": 7.9379
   },
   {
     "id": "LK-6",
     "name": "North Western",
-    "rdi": 4.9352
+    "rdi": 4.9082
   },
   {
     "id": "LK-7",
     "name": "North Central",
-    "rdi": 2.1454
+    "rdi": 2.1965
   },
   {
     "id": "LK-8",
     "name": "Uva",
-    "rdi": 3.8842
+    "rdi": 3.7684
   },
   {
     "id": "LK-9",
     "name": "Sabaragamuwa",
-    "rdi": 2.9896
+    "rdi": 2.9842
   }
 ]

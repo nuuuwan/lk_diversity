@@ -2,92 +2,92 @@
   {
     "id": "LK-11",
     "name": "Colombo",
-    "rdi": 5.5616
+    "rdi": 5.4695
   },
   {
     "id": "LK-12",
     "name": "Gampaha",
-    "rdi": 5.1666
+    "rdi": 5.1734
   },
   {
     "id": "LK-13",
     "name": "Kalutara",
-    "rdi": 3.4217
+    "rdi": 3.5198
   },
   {
     "id": "LK-21",
     "name": "Kandy",
-    "rdi": 5.0276
+    "rdi": 5.0994
   },
   {
     "id": "LK-22",
     "name": "Matale",
-    "rdi": 4.0923
+    "rdi": 4.0937
   },
   {
     "id": "LK-23",
     "name": "Nuwara Eliya",
-    "rdi": 6.7792
+    "rdi": 6.7257
   },
   {
     "id": "LK-31",
     "name": "Galle",
-    "rdi": 1.3569
+    "rdi": 1.4438
   },
   {
     "id": "LK-32",
     "name": "Matara",
-    "rdi": 1.311
+    "rdi": 1.3472
   },
   {
     "id": "LK-33",
     "name": "Hambantota",
-    "rdi": 0.7405
+    "rdi": 0.7328
   },
   {
     "id": "LK-41",
     "name": "Jaffna",
-    "rdi": 3.3591
+    "rdi": 3.4452
   },
   {
     "id": "LK-42",
     "name": "Mannar",
-    "rdi": 6.8118
+    "rdi": 7.2189
   },
   {
     "id": "LK-43",
     "name": "Vavuniya",
-    "rdi": 5.6575
+    "rdi": 6.0746
   },
   {
     "id": "LK-44",
     "name": "Mullaitivu",
-    "rdi": 4.7419
+    "rdi": 5.1463
   },
   {
     "id": "LK-45",
     "name": "Kilinochchi",
-    "rdi": 3.5257
+    "rdi": 3.73
   },
   {
     "id": "LK-51",
     "name": "Batticaloa",
-    "rdi": 5.9826
+    "rdi": 6.0986
   },
   {
     "id": "LK-52",
     "name": "Ampara",
-    "rdi": 7.4208
+    "rdi": 7.3497
   },
   {
     "id": "LK-53",
     "name": "Trincomalee",
-    "rdi": 7.9841
+    "rdi": 7.745
   },
   {
     "id": "LK-61",
     "name": "Kurunegala",
-    "rdi": 2.4577
+    "rdi": 2.5267
   },
   {
     "id": "LK-62",
@@ -97,31 +97,31 @@
   {
     "id": "LK-71",
     "name": "Anuradhapura",
-    "rdi": 2.1136
+    "rdi": 2.1538
   },
   {
     "id": "LK-72",
     "name": "Polonnaruwa",
-    "rdi": 2.2108
+    "rdi": 2.2864
   },
   {
     "id": "LK-81",
     "name": "Badulla",
-    "rdi": 5.0402
+    "rdi": 4.9735
   },
   {
     "id": "LK-82",
     "name": "Monaragala",
-    "rdi": 1.2089
+    "rdi": 1.2377
   },
   {
     "id": "LK-91",
     "name": "Ratnapura",
-    "rdi": 2.7824
+    "rdi": 2.6757
   },
   {
     "id": "LK-92",
     "name": "Kegalle",
-    "rdi": 3.2321
+    "rdi": 3.3534
   }
 ]
