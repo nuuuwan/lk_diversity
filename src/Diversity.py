@@ -43,7 +43,7 @@ class Diversity:
     def __init__(self, ent_type: EntType):
         self.ent_type = ent_type
 
-    def computer_hhcm(self) -> dict[str, tuple[float, str]]:
+    def compute_herfindahl_simpson(self) -> dict[str, tuple[float, str]]:
         ents = Ent.list_from_type(self.ent_type)
         n_ents = len(ents)
         log.info(f"Found {n_ents} {self.ent_type.name} entities")
@@ -91,7 +91,7 @@ class Diversity:
         return d
 
     def save_hs(self):
-        rdi_by_id = self.computer_hhcm()
+        rdi_by_id = self.compute_herfindahl_simpson()
         ents = {ent.id: ent.name for ent in Ent.list_from_type(self.ent_type)}
         data = [
             {
@@ -114,7 +114,7 @@ class Diversity:
         output_path = os.path.join(
             DIR_IMAGES, f"diversity_map_{self.ent_type.name.lower()}.png"
         )
-        rdi_by_id = self.computer_hhcm()
+        rdi_by_id = self.compute_herfindahl_simpson()
         ents = Ent.list_from_type(self.ent_type)
 
         _COUNTRY_TOPOJSON = (
