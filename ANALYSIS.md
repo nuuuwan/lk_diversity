@@ -51,13 +51,15 @@ The provincial map immediately dissolves the illusion of a uniformly diverse nat
 
 ![Provinces](output/images/diversity_map_province.png)
 
-**Eastern Province (8.0; Very High)** is the most religiously diverse province in Sri Lanka by a significant margin. Its population is roughly divided three ways between Sinhalese Buddhists, Sri Lankan Tamils (Hindu), and Sri Lankan Muslims; a three-community balance that pushes the index close to its theoretical maximum. No single group holds more than about 40% of the population.
+- **Eastern Province (7.9; Very High)** — The most religiously diverse province by a significant margin. Its population is roughly divided three ways between Sinhalese Buddhists, Sri Lankan Tamils (Hindu), and Sri Lankan Muslims; no single group holds more than about 40%.
 
-**Central Province (6.1; High)** owes much of its diversity to the Indian Tamil plantation community brought by the British to work the tea estates of Nuwara Eliya and Kandy. These communities are predominantly Hindu, creating a significant counterweight to the Sinhalese Buddhist majority in the hill country.
+- **Central Province (6.1; High)** — Diversity driven almost entirely by the Indian Tamil plantation community brought by the British to work the hill-country tea estates. They are predominantly Hindu, creating a substantial counterweight to the Sinhalese Buddhist majority.
 
-**Southern Province (1.2; Low)** sits at the opposite extreme. It is one of the most homogeneously Sinhalese Buddhist regions in the country. The south coast; Galle, Matara, Hambantota; has historically had limited settlement by Tamil or Muslim communities, a pattern reinforced over generations. The province's score of 1.2 places it just above the "Very Low" threshold.
+- **Western and Northern Provinces (5.0 and 5.1; Moderate)** — Both land in the Moderate band but for different reasons. Western reaches it via a large urban Muslim and Christian minority concentrated in Colombo; Northern via the Tamil Muslim community that adds religious variety to an otherwise near-entirely Hindu Tamil province.
 
-**North Central Province (2.1; Low)** tells a different story of low diversity. Ancient Sinhalese Buddhist heartland centred on Anuradhapura, it scores low not because of historical isolation but because it is overwhelmingly Buddhist. Post-war resettlement has brought some demographic change, but the 2024 census still captures a region with a single community in strong majority.
+- **North Western Province (4.9; Moderate)** — A case where one district defines the story: inland Kurunegala is decidedly Low, but coastal Puttalam (7.7; Very High) pulls the provincial average up by itself.
+
+- **North Central and Southern Provinces (2.2 and 1.2; Low)** — The two most homogeneously Buddhist provinces, for complementary reasons. North Central is ancient Sinhalese Buddhist heartland centred on Anuradhapura; Southern's coast has seen historically little Tamil or Muslim settlement, a pattern reinforced over generations.
 
 ---
 
@@ -67,13 +69,15 @@ The district map reveals sub-provincial patterns that the provincial view obscur
 
 ![Districts](output/images/diversity_map_district.png)
 
-**Trincomalee (8.0)** and **Ampara (7.4)** are the standout Very High districts; both on the east coast, both the product of historically interleaved Muslim, Tamil, and Sinhalese settlement. Trincomalee's famous natural harbour attracted traders and colonisers of every background; today that history is written in its demographics.
+- **Trincomalee (7.7) and Ampara (7.3; Very High)** — The two standout east-coast districts, both products of centuries of interleaved Muslim, Tamil, and Sinhalese settlement. Trincomalee's famous natural harbour brought traders and colonisers of every background; that history is now encoded in its demographics.
 
-**Puttalam (7.7)** in the North Western Province is a surprise entry in the Very High band. Its large Sri Lankan Moor (Muslim) community, concentrated in coastal fishing towns, sits alongside a Sinhalese Buddhist hinterland. The resulting balance produces one of the highest district scores outside the east.
+- **Puttalam (7.7; Very High)** — The highest-scoring district outside the east, and the surprise of the map. A large Sri Lankan Moor (Muslim) community concentrated in coastal fishing towns sits alongside a Sinhalese Buddhist hinterland; together they produce a balance the inland north-west does not.
 
-**Nuwara Eliya (6.8)** and **Mannar (6.8)** both score High. Nuwara Eliya is the heart of the estate Tamil community; in some divisions Indian Tamils are the majority, making it the most ethnically complex district in the hill country. Mannar, a small and historically significant island-linked district in the north-west, has a large Catholic Tamil population alongside Muslims and Sinhalese, a legacy of Portuguese missionary activity.
+- **Mannar (7.2; Very High)** — A small north-western district whose large Catholic Tamil population — a direct legacy of Portuguese missionary activity — pushes it into the Very High band alongside the east-coast districts.
 
-**Hambantota (0.7)** is the only district to fall into the Very Low band; the single red district on the map. Over 95% of its population is Sinhalese Buddhist. The contrast with Trincomalee, just two provinces away on the same island, is a measure of how profoundly geography has shaped community composition.
+- **Nuwara Eliya (6.7; High)** — The heart of the estate Tamil community. In some divisions Indian Tamils are the outright majority, making it the most ethnically complex district in the hill country.
+
+- **Hambantota (0.7; Very Low)** — The only district in the Very Low band. Over 95% of its population is Sinhalese Buddhist. The contrast with Trincomalee, just two provinces away on the same island, is the starkest illustration of how profoundly geography has shaped community composition.
 
 ---
 
@@ -89,11 +93,11 @@ At the Divisional Secretariat level; over 300 administrative units; the variatio
 
 The RDI is a useful summary statistic, but it has genuine weaknesses; and Sri Lanka provides vivid illustrations of each.
 
-**High diversity does not mean peaceful coexistence.** Eastern Province scores 8.0; the highest in the country; yet the east was also one of the most heavily contested theatres of Sri Lanka's thirty-year civil war. Trincomalee and Ampara districts experienced some of the worst inter-communal violence of the 1980s. The index measures how mixed a population is, not how harmoniously it lives together. A score of 8.0 could describe a genuinely integrated community or a patchwork of segregated enclaves occupying the same district.
+**High diversity does not mean peaceful coexistence.** Eastern Province scores 7.9; the highest in the country; yet the east was also one of the most heavily contested theatres of Sri Lanka's thirty-year civil war. Trincomalee and Ampara districts experienced some of the worst inter-communal violence of the 1980s. The index measures how mixed a population is, not how harmoniously it lives together. A score of 7.9 could describe a genuinely integrated community or a patchwork of segregated enclaves occupying the same district.
 
 **The index is scale-sensitive.** A district that scores "Moderate" may contain GN divisions that are almost entirely composed of a single community living alongside other GN divisions of a different community. The diversity registered at district level is partly an artefact of drawing a boundary around two adjacent monocultural villages. This effect is visible when comparing the district and DSD maps: several districts that appear moderate at the district level show a mosaic of Very High and Very Low at the DSD level.
 
-**Treating the 2024 baseline as fixed.** The 2024 census was the 2nd conducted across all of Sri Lanka following the end of the civil war in 2009. Large-scale displacement and post-war resettlement in the north and east mean the demographic landscape in those regions could still be in flux. Districts like Mullaitivu (4.7) and Kilinochchi (3.5) had seen massive population movements in the preceding decade; their 2024 figures reflect a transitional moment rather than a settled pattern.
+**Treating the 2024 baseline as fixed.** The 2024 census was the 2nd conducted across all of Sri Lanka following the end of the civil war in 2009. Large-scale displacement and post-war resettlement in the north and east mean the demographic landscape in those regions could still be in flux. Districts like Mullaitivu (5.1) and Kilinochchi (3.7) had seen massive population movements in the preceding decade; their 2024 figures reflect a transitional moment rather than a settled pattern.
 
 **Near-zero categories inflate the score under normalisation.** Because the formula divides by $1 - 1/n$, adding a category that is nearly empty (like "Jews" or "religiously unaffiliated" in Sri Lanka) still increases $n$ and therefore the denominator. This effectively raises every region's score slightly relative to a 4-category formulation. This analysis uses $n = 5$ census categories; Pew's global analysis uses $n = 7$, which is part of why direct score comparisons require care.
 
