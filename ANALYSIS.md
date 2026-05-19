@@ -8,7 +8,7 @@
 
 In February 2026 the Pew Research Center published its updated [Religious Diversity Index](https://www.pewresearch.org/religion/2026/02/12/religious-diversity-around-the-world/), ranking 198 countries by how evenly their populations are spread across eight major faith traditions. Sri Lanka — a country of 22 million people and four major religions — earned a score of **5.6 out of 10**, placing it in the "High" diversity band alongside nations like Singapore and Switzerland.
 
-A single national score, however, is an average over an island that is anything but average. Sri Lanka's ethnic and religious communities are not randomly distributed; they are geographically concentrated in patterns shaped by centuries of history, colonial policy, and one of Asia's longest civil wars. This analysis breaks the national RDI down to province and district level using Sri Lanka's 2012 Census of Population and Housing, asking a simple question: *where* is Sri Lanka diverse, and where is it not?
+A single national score, however, is an aggregation over an island that is anything but average. Sri Lanka's ethnic and religious communities are not randomly distributed; they are geographically concentrated in patterns shaped by centuries of history, colonial policy, and one of Asia's longest civil wars. This analysis breaks the national RDI down to province, district, and sub-region levels using Sri Lanka's 2024 Census of Population and Housing, asking a simple question: *where* is Sri Lanka diverse, and where is it not?
 
 ---
 
@@ -53,7 +53,7 @@ The provincial map immediately dissolves the illusion of a uniformly diverse nat
 
 **Southern Province (1.2 — Low)** sits at the opposite extreme. It is one of the most homogeneously Sinhalese Buddhist regions in the country. The south coast — Galle, Matara, Hambantota — has historically had limited settlement by Tamil or Muslim communities, a pattern reinforced over generations. The province's score of 1.2 places it just above the "Very Low" threshold.
 
-**North Central Province (2.1 — Low)** tells a different story of low diversity. Ancient Sinhalese Buddhist heartland centred on Anuradhapura, it scores low not because of historical isolation but because it is overwhelmingly Buddhist. Post-war resettlement has brought some demographic change, but the 2012 census still captures a region with a single community in strong majority.
+**North Central Province (2.1 — Low)** tells a different story of low diversity. Ancient Sinhalese Buddhist heartland centred on Anuradhapura, it scores low not because of historical isolation but because it is overwhelmingly Buddhist. Post-war resettlement has brought some demographic change, but the 2024 census still captures a region with a single community in strong majority.
 
 ---
 
@@ -89,12 +89,12 @@ The RDI is a useful summary statistic, but it has genuine weaknesses — and Sri
 
 **The index is scale-sensitive.** A district that scores "Moderate" may contain GN divisions that are almost entirely composed of a single community living alongside other GN divisions of a different community. The diversity registered at district level is partly an artefact of drawing a boundary around two adjacent monocultural villages. This effect is visible when comparing the district and DSD maps: several districts that appear moderate at the district level show a mosaic of Very High and Very Low at the DSD level.
 
-**Treating the 2012 baseline as fixed.** The 2012 census was the first conducted across all of Sri Lanka following the end of the civil war in 2009. Large-scale displacement and post-war resettlement in the north and east mean the demographic landscape in those regions was still in flux. Districts like Mullaitivu (4.7) and Kilinochchi (3.5) had seen massive population movements in the preceding decade; their 2012 figures reflect a transitional moment rather than a settled pattern.
+**Treating the 2024 baseline as fixed.** The 2024 census was the 2nd conducted across all of Sri Lanka following the end of the civil war in 2009. Large-scale displacement and post-war resettlement in the north and east mean the demographic landscape in those regions could still be in flux. Districts like Mullaitivu (4.7) and Kilinochchi (3.5) had seen massive population movements in the preceding decade; their 2024 figures reflect a transitional moment rather than a settled pattern.
 
 **Near-zero categories inflate the score under normalisation.** Because the formula divides by $1 - 1/n$, adding a category that is nearly empty (like "Jews" or "religiously unaffiliated" in Sri Lanka) still increases $n$ and therefore the denominator. This effectively raises every region's score slightly relative to a 4-category formulation. This analysis uses $n = 5$ census categories; Pew's global analysis uses $n = 7$, which is part of why direct score comparisons require care.
 
-**The index treats all groups symmetrically regardless of size.** A district split 50/50 between two groups scores identically to one split 50/50 between two different groups, regardless of the social or political significance of those groups. In Sri Lanka, where ethnicity, language, and religion are deeply intertwined, a Muslim-Buddhist balance carries different social weight than a Catholic-Protestant balance would in another context — distinctions the index cannot capture.
+**The index treats all groups symmetrically regardless of size.** A district split 50/50 between two groups scores identically to one split 50/50 between two different groups, regardless of the social or political significance of those groups. In Sri Lanka, where ethnicity, language, and religion are deeply intertwined, a Buddhist-Muslim balance carries different social weight than a Buddhist-Christian balance would in another context — distinctions the index cannot capture.
 
 ---
 
-*Data: Sri Lanka Census of Population and Housing, 2012. Methodology follows the Pew Research Center's Religious Diversity Index. Analysis and maps produced using Python, GeoPandas, and Matplotlib.*
+*Data: Sri Lanka Census of Population and Housing, 2024. Methodology follows the Pew Research Center's Religious Diversity Index. Analysis and maps produced using Python, GeoPandas, and Matplotlib.*
