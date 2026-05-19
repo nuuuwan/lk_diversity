@@ -1,6 +1,6 @@
 # One Island, Many Maps: The Hidden Geography of Religious Diversity in Sri Lanka
 
-### Pew Research ranks Sri Lanka 39th in the world for religious diversity. But that single number conceals a country of extraordinary contrasts — from districts that rival the world's most pluralist places to corners that are almost entirely monocultural.
+### Pew Research ranks Sri Lanka 39th in the world for religious diversity. But that single number conceals a country of extraordinary contrasts — from districts that rival the world's most pluralist places to corners that are almost entirely monocultural
 
 ---
 
