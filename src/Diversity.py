@@ -1,7 +1,29 @@
+import subprocess
+
+import geopandas as gpd
+import matplotlib.patches as mpatches
+import matplotlib.pyplot as plt
+import pandas as pd
 from gig import Ent, EntType, GIGTable
 from utils import Log
 
 log = Log("Diversity")
+
+# RDI bands and colours matching the Voronoi/Pew visualisation
+RDI_BANDS = [
+    (7.1, 10.0, "#1d6614", "Very High (7.1–10)"),
+    (5.6, 7.1, "#6a9f3a", "High (5.6–7.1)"),
+    (3.6, 5.6, "#d4b030", "Moderate (3.6–5.5)"),
+    (1.6, 3.6, "#e07030", "Low (1.6–3.5)"),
+    (0.0, 1.6, "#c03025", "Very Low (<1.6)"),
+]
+
+
+def _rdi_color(rdi: float) -> str:
+    for lo, hi, color, _ in RDI_BANDS:
+        if lo <= rdi <= hi:
+            return color
+    return RDI_BANDS[-1][2]
 
 
 class Diversity:
@@ -13,23 +35,25 @@ class Diversity:
         n_ents = len(ents)
         log.info(f"Found {n_ents} {self.ent_type.name} entities")
 
-        gig_table_religion = GIGTable("population-religion", "regions", "2012")
+        gig_table_religion = GIGTable(
+            "population-religion", "regions", "2012"
+        )
         d = {}
         for ent in ents:
             religion = ent.gig(gig_table_religion).dict
             buddhist = religion.get("buddhist", 0)
             hindu = religion.get("hindu", 0)
             islamic = religion.get("islam", 0)
-            roman_catholic = religion.get("roman_catholic", 0)
-            other_christian = religion.get("other_christian", 0)
+            christian = religion.get("roman_catholic", 0) + religion.get(
+                "other_christian", 0
+            )
             other = religion.get("other", 0)
 
             counts = [
                 buddhist,
                 hindu,
                 islamic,
-                roman_catholic,
-                other_christian,
+                christian,
                 other,
             ]
             total = sum(counts)
@@ -42,6 +66,63 @@ class Diversity:
             d[ent.id] = rdi
         return d
 
+    def plot(self):
+        output_path = f"diversity_map_{self.ent_type.name.lower()}.png"
+        rdi_by_id = self.computer_hhcm()
+        ents = Ent.list_from_type(self.ent_type)
+
+        frames = []
+        for ent in ents:
+            gdf = ent.geo()
+            rdi = rdi_by_id.get(ent.id, 0.0)
+            gdf["ent_id"] = ent.id
+            gdf["rdi"] = rdi
+            gdf["color"] = _rdi_color(rdi)
+            frames.append(gdf)
+
+        combined = gpd.GeoDataFrame(pd.concat(frames, ignore_index=True))
+
+        fig, ax = plt.subplots(figsize=(10, 8))
+        fig.patch.set_facecolor("#f5f0e8")
+        ax.set_facecolor("#f5f0e8")
+
+        combined.plot(
+            ax=ax, color=combined["color"], edgecolor="#333333", linewidth=0.4
+        )
+
+        # Legend
+        legend_patches = [
+            mpatches.Patch(color=color, label=label)
+            for _, _, color, label in RDI_BANDS
+        ]
+        ax.legend(
+            handles=legend_patches,
+            title="Religious Diversity Index",
+            loc="center left",
+            bbox_to_anchor=(1.02, 0.5),
+            fontsize=8,
+            title_fontsize=9,
+            framealpha=0.85,
+            borderaxespad=0,
+        )
+
+        ax.set_title(
+            f"Religious Diversity Index — Sri Lanka\nby {
+                self.ent_type.name.title()}",
+            fontsize=14,
+            fontweight="bold",
+            pad=12,
+        )
+        ax.axis("off")
+
+        plt.tight_layout()
+        plt.savefig(output_path, dpi=150, bbox_inches="tight")
+        plt.close()
+        log.info(f"Map saved to {output_path}")
+        subprocess.run(["open", output_path])
+
 
 if __name__ == "__main__":
-    print(Diversity(EntType.COUNTRY).computer_hhcm())
+    for ent_type in [EntType.COUNTRY, EntType.PROVINCE, EntType.DISTRICT]:
+        diversity = Diversity(ent_type)
+        diversity.plot()

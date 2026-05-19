@@ -7,6 +7,7 @@ Attempts to Replicate the Pew Research Center's Religious Diversity Index (RDI) 
 The original global analysis was published by Pew Research Center and visualised by Voronoi:
 
 - Voronoi article: <https://www.voronoiapp.com/category/Religious-Diversity-Around-the-World--8143>
+- Voronoi visualization: <https://www.voronoiapp.com/_next/image?url=https%3A%2F%2Fcdn.voronoiapp.com%2Fpublic%2Fimages%2F569b3be9-d493-498d-b76e-5b5a36201950.webp&w=1080&q=85>
 - Pew Research: <https://www.pewresearch.org/religion/2026/02/12/religious-diversity-around-the-world/>
 
 Sri Lanka ranks 39th globally with an RDI of 5.61 ("High"). This repo asks: how does that figure vary inside the country?
