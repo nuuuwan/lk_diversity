@@ -71,9 +71,19 @@ class Diversity:
         rdi_by_id = self.computer_hhcm()
         ents = Ent.list_from_type(self.ent_type)
 
+        _COUNTRY_TOPOJSON = (
+            "https://raw.githubusercontent.com/nuuuwan/"
+            "lk_admin_regions/main/data/geo/topojson/original/countrys.topojson"
+        )
+
         frames = []
         for ent in ents:
-            gdf = ent.geo()
+            if self.ent_type == EntType.COUNTRY:
+                gdf = gpd.read_file(_COUNTRY_TOPOJSON, driver="TopoJSON")[
+                    ["geometry"]
+                ]
+            else:
+                gdf = ent.geo()
             rdi = rdi_by_id.get(ent.id, 0.0)
             gdf["ent_id"] = ent.id
             gdf["rdi"] = rdi
