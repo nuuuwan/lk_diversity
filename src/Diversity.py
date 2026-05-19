@@ -9,13 +9,14 @@ from utils import Log
 
 log = Log("Diversity")
 
+
 # RDI bands and colours matching the Voronoi/Pew visualisation
 RDI_BANDS = [
-    (7.1, 10.0, "#1d6614", "Very High (7.1–10)"),
-    (5.6, 7.1, "#6a9f3a", "High (5.6–7.1)"),
-    (3.6, 5.6, "#d4b030", "Moderate (3.6–5.5)"),
-    (1.6, 3.6, "#e07030", "Low (1.6–3.5)"),
-    (0.0, 1.6, "#c03025", "Very Low (<1.6)"),
+    (7.0, 10.0, "#1d6614", "Very High (≥7.0)"),
+    (5.5, 7.0, "#6a9f3a", "High (5.5–6.9)"),
+    (3.0, 5.5, "#d4b030", "Moderate (3.0–5.4)"),
+    (1.0, 3.0, "#e07030", "Low (1.0–2.9)"),
+    (0.0, 1.0, "#c03025", "Very Low (<1.0)"),
 ]
 
 
@@ -30,7 +31,7 @@ class Diversity:
     def __init__(self, ent_type: EntType):
         self.ent_type = ent_type
 
-    def computer_hhcm(self) -> dict[str, float]:
+    def computer_hhcm(self) -> dict[str, tuple[float, str]]:
         ents = Ent.list_from_type(self.ent_type)
         n_ents = len(ents)
         log.info(f"Found {n_ents} {self.ent_type.name} entities")
@@ -40,28 +41,39 @@ class Diversity:
         )
         d = {}
         for ent in ents:
-            religion = ent.gig(gig_table_religion).dict
+            try:
+                religion = ent.gig(gig_table_religion).dict
+            except Exception as e:
+                log.warning(
+                    f"Could not get religion data for {
+                        ent.name} ({
+                        ent.id}): {e}"
+                )
+                continue
             buddhist = religion.get("buddhist", 0)
             hindu = religion.get("hindu", 0)
-            islamic = religion.get("islam", 0)
+            muslims = religion.get("islam", 0)
             christian = religion.get("roman_catholic", 0) + religion.get(
                 "other_christian", 0
             )
             other = religion.get("other", 0)
 
-            counts = [
-                buddhist,
-                hindu,
-                islamic,
-                christian,
-                other,
-            ]
-            total = sum(counts)
+            religion_counts = {
+                "buddhist": buddhist,
+                "hindu": hindu,
+                "muslims": muslims,
+                "christian": christian,
+                "religiously_unaffiliated": 0,
+                "jews": 0,
+                "other": other,
+            }
+            total = sum(religion_counts.values())
             if total == 0:
                 rdi = 0.0
             else:
-                shares = [c / total for c in counts]
-                rdi = 10 * (1 - sum(s**2 for s in shares))
+                n = len(religion_counts)
+                shares = [c / total for c in religion_counts.values()]
+                rdi = 10 * (1 - sum(s**2 for s in shares)) / (1 - 1 / n)
 
             d[ent.id] = rdi
         return d
@@ -86,6 +98,7 @@ class Diversity:
                 gdf = ent.geo()
             rdi = rdi_by_id.get(ent.id, 0.0)
             gdf["ent_id"] = ent.id
+            gdf["ent_name"] = ent.name
             gdf["rdi"] = rdi
             gdf["color"] = _rdi_color(rdi)
             frames.append(gdf)
@@ -99,6 +112,27 @@ class Diversity:
         combined.plot(
             ax=ax, color=combined["color"], edgecolor="#333333", linewidth=0.4
         )
+
+        if len(ents) < 30:
+            combined["geometry"] = combined["geometry"].buffer(0)
+            labels = combined.dissolve(
+                by="ent_id",
+                aggfunc={
+                    "ent_name": "first",
+                    "rdi": "first",
+                },
+            )
+            for _, row in labels.iterrows():
+                pt = row.geometry.representative_point()
+                label = f"{row['ent_name']}\n{row['rdi']:.1f}"
+                ax.annotate(
+                    label,
+                    xy=(pt.x, pt.y),
+                    ha="center",
+                    va="center",
+                    fontsize=6.5,
+                    color="white",
+                )
 
         # Legend
         legend_patches = [
@@ -133,6 +167,13 @@ class Diversity:
 
 
 if __name__ == "__main__":
-    for ent_type in [EntType.COUNTRY, EntType.PROVINCE, EntType.DISTRICT]:
+    for ent_type in [
+        EntType.COUNTRY,
+        EntType.PROVINCE,
+        EntType.DISTRICT,
+        EntType.DSD,
+        EntType.ED,
+        EntType.PD,
+    ]:
         diversity = Diversity(ent_type)
         diversity.plot()
