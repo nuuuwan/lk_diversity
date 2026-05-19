@@ -19,9 +19,9 @@ DIR_HS = "output/hs"
 # RDI bands and colours matching the Voronoi/Pew visualisation
 RDI_BANDS = [
     (7.0, 10.0, "#1d6614", "Very High (≥7.0)"),
-    (5.5, 7.0, "#6a9f3a", "High (5.5–6.9)"),
-    (3.0, 5.5, "#d4b030", "Moderate (3.0–5.4)"),
-    (1.0, 3.0, "#e07030", "Low (1.0–2.9)"),
+    (5.5, 7.0, "#6a9f3a", "High (5.5–7.0)"),
+    (3.0, 5.5, "#d4b030", "Moderate (3.0–5.5)"),
+    (1.0, 3.0, "#e07030", "Low (1.0–3.0)"),
     (0.0, 1.0, "#c03025", "Very Low (<1.0)"),
 ]
 
@@ -48,19 +48,15 @@ class Diversity:
         n_ents = len(ents)
         log.info(f"Found {n_ents} {self.ent_type.name} entities")
 
-        gig_table_religion = GIGTable(
-            "population-religion", "regions", "2012"
-        )
+        gig_table_religion = GIGTable("population-religion", "regions", "2012")
         d = {}
         for ent in ents:
             try:
                 religion = ent.gig(gig_table_religion).dict
             except Exception as e:
-                log.warning(
-                    f"Could not get religion data for {
+                log.warning(f"Could not get religion data for {
                         ent.name} ({
-                        ent.id}): {e}"
-                )
+                        ent.id}): {e}")
                 continue
             buddhist = religion.get("buddhist", 0)
             hindu = religion.get("hindu", 0)
