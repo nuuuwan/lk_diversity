@@ -34,8 +34,9 @@ def _rdi_color(rdi: float) -> str:
 
 
 ENT_TYPE_LABELS = {
-    "ED": "Electoral Districts",
-    "PD": "Polling Divisions",
+    "ed": "Electoral District",
+    "pd": "Polling Division",
+    "dsd": "Divisional Secretariat Division",
 }
 
 
@@ -48,15 +49,19 @@ class Diversity:
         n_ents = len(ents)
         log.info(f"Found {n_ents} {self.ent_type.name} entities")
 
-        gig_table_religion = GIGTable("population-religion", "regions", "2012")
+        gig_table_religion = GIGTable(
+            "population-religion", "regions", "2012"
+        )
         d = {}
         for ent in ents:
             try:
                 religion = ent.gig(gig_table_religion).dict
             except Exception as e:
-                log.warning(f"Could not get religion data for {
+                log.warning(
+                    f"Could not get religion data for {
                         ent.name} ({
-                        ent.id}): {e}")
+                        ent.id}): {e}"
+                )
                 continue
             buddhist = religion.get("buddhist", 0)
             hindu = religion.get("hindu", 0)
