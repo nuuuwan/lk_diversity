@@ -1,0 +1,1647 @@
+[
+  {
+    "id": "LK-1103",
+    "name": "Colombo",
+    "rdi": 8.2931
+  },
+  {
+    "id": "LK-1106",
+    "name": "Kolonnawa",
+    "rdi": 6.0915
+  },
+  {
+    "id": "LK-1109",
+    "name": "Kaduwela",
+    "rdi": 2.0704
+  },
+  {
+    "id": "LK-1112",
+    "name": "Homagama",
+    "rdi": 0.8653
+  },
+  {
+    "id": "LK-1115",
+    "name": "Seethawaka",
+    "rdi": 3.7374
+  },
+  {
+    "id": "LK-1118",
+    "name": "Padukka",
+    "rdi": 1.2102
+  },
+  {
+    "id": "LK-1121",
+    "name": "Maharagama",
+    "rdi": 1.766
+  },
+  {
+    "id": "LK-1124",
+    "name": "Sri Jayawardanapura Kotte",
+    "rdi": 4.5008
+  },
+  {
+    "id": "LK-1127",
+    "name": "Thimbirigasyaya",
+    "rdi": 7.8812
+  },
+  {
+    "id": "LK-1130",
+    "name": "Dehiwala",
+    "rdi": 7.3212
+  },
+  {
+    "id": "LK-1131",
+    "name": "Ratmalana",
+    "rdi": 5.5804
+  },
+  {
+    "id": "LK-1133",
+    "name": "Moratuwa",
+    "rdi": 5.3427
+  },
+  {
+    "id": "LK-1136",
+    "name": "Kesbewa",
+    "rdi": 1.5372
+  },
+  {
+    "id": "LK-1203",
+    "name": "Negombo",
+    "rdi": 5.745
+  },
+  {
+    "id": "LK-1206",
+    "name": "Katana",
+    "rdi": 5.9232
+  },
+  {
+    "id": "LK-1209",
+    "name": "Divulapitiya",
+    "rdi": 2.985
+  },
+  {
+    "id": "LK-1212",
+    "name": "Mirigama",
+    "rdi": 1.4365
+  },
+  {
+    "id": "LK-1215",
+    "name": "Minuwangoda",
+    "rdi": 2.4562
+  },
+  {
+    "id": "LK-1218",
+    "name": "Wattala",
+    "rdi": 7.3957
+  },
+  {
+    "id": "LK-1221",
+    "name": "Ja Ela",
+    "rdi": 6.1419
+  },
+  {
+    "id": "LK-1224",
+    "name": "Gampaha",
+    "rdi": 2.559
+  },
+  {
+    "id": "LK-1227",
+    "name": "Attanagalla",
+    "rdi": 3.1432
+  },
+  {
+    "id": "LK-1230",
+    "name": "Dompe",
+    "rdi": 1.223
+  },
+  {
+    "id": "LK-1233",
+    "name": "Mahara",
+    "rdi": 3.1105
+  },
+  {
+    "id": "LK-1236",
+    "name": "Kelaniya",
+    "rdi": 4.8759
+  },
+  {
+    "id": "LK-1239",
+    "name": "Biyagama",
+    "rdi": 2.8457
+  },
+  {
+    "id": "LK-1303",
+    "name": "Panadura",
+    "rdi": 4.1655
+  },
+  {
+    "id": "LK-1306",
+    "name": "Bandaragama",
+    "rdi": 2.9258
+  },
+  {
+    "id": "LK-1309",
+    "name": "Horana",
+    "rdi": 0.6912
+  },
+  {
+    "id": "LK-1310",
+    "name": "Ingiriya",
+    "rdi": 2.2543
+  },
+  {
+    "id": "LK-1312",
+    "name": "Bulathsinhala",
+    "rdi": 3.1425
+  },
+  {
+    "id": "LK-1315",
+    "name": "Madurawala",
+    "rdi": 1.8741
+  },
+  {
+    "id": "LK-1318",
+    "name": "Millaniya",
+    "rdi": 0.8914
+  },
+  {
+    "id": "LK-1321",
+    "name": "Kalutara",
+    "rdi": 3.2077
+  },
+  {
+    "id": "LK-1324",
+    "name": "Beruwala",
+    "rdi": 6.5471
+  },
+  {
+    "id": "LK-1327",
+    "name": "Dodangoda",
+    "rdi": 2.7069
+  },
+  {
+    "id": "LK-1330",
+    "name": "Matugama",
+    "rdi": 2.7285
+  },
+  {
+    "id": "LK-1333",
+    "name": "Agalawatta",
+    "rdi": 0.7411
+  },
+  {
+    "id": "LK-1336",
+    "name": "Palindanuwara",
+    "rdi": 2.1187
+  },
+  {
+    "id": "LK-1339",
+    "name": "Walallawita",
+    "rdi": 0.7261
+  },
+  {
+    "id": "LK-2103",
+    "name": "Tumpane",
+    "rdi": 1.7673
+  },
+  {
+    "id": "LK-2106",
+    "name": "Poojapitiya",
+    "rdi": 3.8762
+  },
+  {
+    "id": "LK-2109",
+    "name": "Akurana",
+    "rdi": 5.7097
+  },
+  {
+    "id": "LK-2112",
+    "name": "Pathadumbara",
+    "rdi": 4.7887
+  },
+  {
+    "id": "LK-2115",
+    "name": "Panvila",
+    "rdi": 6.7565
+  },
+  {
+    "id": "LK-2118",
+    "name": "Ududumbara",
+    "rdi": 1.8533
+  },
+  {
+    "id": "LK-2121",
+    "name": "Minipe",
+    "rdi": 0.2059
+  },
+  {
+    "id": "LK-2124",
+    "name": "Medadumbara",
+    "rdi": 4.779
+  },
+  {
+    "id": "LK-2127",
+    "name": "Kundasale",
+    "rdi": 3.7698
+  },
+  {
+    "id": "LK-2130",
+    "name": "Gangawata Korale",
+    "rdi": 5.4512
+  },
+  {
+    "id": "LK-2133",
+    "name": "Harispattuwa",
+    "rdi": 2.9803
+  },
+  {
+    "id": "LK-2134",
+    "name": "Hatharaliyadda",
+    "rdi": 1.5598
+  },
+  {
+    "id": "LK-2136",
+    "name": "Yatinuwara",
+    "rdi": 2.3967
+  },
+  {
+    "id": "LK-2139",
+    "name": "Udunuwara",
+    "rdi": 4.9073
+  },
+  {
+    "id": "LK-2142",
+    "name": "Doluwa",
+    "rdi": 4.897
+  },
+  {
+    "id": "LK-2145",
+    "name": "Pathahewaheta",
+    "rdi": 2.2563
+  },
+  {
+    "id": "LK-2148",
+    "name": "Deltota",
+    "rdi": 7.7835
+  },
+  {
+    "id": "LK-2151",
+    "name": "Udapalatha",
+    "rdi": 7.0807
+  },
+  {
+    "id": "LK-2154",
+    "name": "Ganga Ihala Korale",
+    "rdi": 3.9399
+  },
+  {
+    "id": "LK-2157",
+    "name": "Pasbagekorale",
+    "rdi": 7.6332
+  },
+  {
+    "id": "LK-2203",
+    "name": "Galewela",
+    "rdi": 3.8789
+  },
+  {
+    "id": "LK-2206",
+    "name": "Dambulla",
+    "rdi": 1.2356
+  },
+  {
+    "id": "LK-2209",
+    "name": "Naula",
+    "rdi": 1.4647
+  },
+  {
+    "id": "LK-2212",
+    "name": "Pallepola",
+    "rdi": 1.7435
+  },
+  {
+    "id": "LK-2215",
+    "name": "Yatawatta",
+    "rdi": 3.4944
+  },
+  {
+    "id": "LK-2218",
+    "name": "Matale",
+    "rdi": 6.5248
+  },
+  {
+    "id": "LK-2221",
+    "name": "Ambanganga",
+    "rdi": 4.4992
+  },
+  {
+    "id": "LK-2224",
+    "name": "Laggala",
+    "rdi": 0.4034
+  },
+  {
+    "id": "LK-2227",
+    "name": "Wilgamuwa",
+    "rdi": 0.0379
+  },
+  {
+    "id": "LK-2230",
+    "name": "Rattota",
+    "rdi": 5.1147
+  },
+  {
+    "id": "LK-2233",
+    "name": "Ukuwela",
+    "rdi": 6.1326
+  },
+  {
+    "id": "LK-2303",
+    "name": "Kothmale East",
+    "rdi": 6.844
+  },
+  {
+    "id": "LK-2306",
+    "name": "Hanguranketa",
+    "rdi": 2.8092
+  },
+  {
+    "id": "LK-2309",
+    "name": "Walapane",
+    "rdi": 5.7883
+  },
+  {
+    "id": "LK-2312",
+    "name": "Nuwara Eliya",
+    "rdi": 5.7725
+  },
+  {
+    "id": "LK-2315",
+    "name": "Ambagamuwa Korale",
+    "rdi": 5.8512
+  },
+  {
+    "id": "LK-3103",
+    "name": "Bentota",
+    "rdi": 0.6521
+  },
+  {
+    "id": "LK-3106",
+    "name": "Balapitiya",
+    "rdi": 0.4892
+  },
+  {
+    "id": "LK-3109",
+    "name": "Karandeniya",
+    "rdi": 0.3916
+  },
+  {
+    "id": "LK-3112",
+    "name": "Elpitiya",
+    "rdi": 0.7162
+  },
+  {
+    "id": "LK-3115",
+    "name": "Niyagama",
+    "rdi": 0.26
+  },
+  {
+    "id": "LK-3118",
+    "name": "Thawalama",
+    "rdi": 1.5362
+  },
+  {
+    "id": "LK-3121",
+    "name": "Neluwa",
+    "rdi": 1.177
+  },
+  {
+    "id": "LK-3124",
+    "name": "Nagoda",
+    "rdi": 1.8247
+  },
+  {
+    "id": "LK-3127",
+    "name": "Baddegama",
+    "rdi": 0.8377
+  },
+  {
+    "id": "LK-3130",
+    "name": "Welivitiya-Divitura",
+    "rdi": 1.0159
+  },
+  {
+    "id": "LK-3133",
+    "name": "Ambalangoda",
+    "rdi": 0.1622
+  },
+  {
+    "id": "LK-3134",
+    "name": "Gonapinuwala",
+    "rdi": 0.28
+  },
+  {
+    "id": "LK-3136",
+    "name": "Hikkaduwa",
+    "rdi": 0.2169
+  },
+  {
+    "id": "LK-3139",
+    "name": "Galle 4 Gravets",
+    "rdi": 5.4125
+  },
+  {
+    "id": "LK-3142",
+    "name": "Bope-Poddala",
+    "rdi": 1.1015
+  },
+  {
+    "id": "LK-3145",
+    "name": "Akmeemana",
+    "rdi": 0.919
+  },
+  {
+    "id": "LK-3148",
+    "name": "Yakkalamulla",
+    "rdi": 1.441
+  },
+  {
+    "id": "LK-3151",
+    "name": "Imaduwa",
+    "rdi": 0.1181
+  },
+  {
+    "id": "LK-3154",
+    "name": "Habaraduwa",
+    "rdi": 0.2012
+  },
+  {
+    "id": "LK-3203",
+    "name": "Pitabaddara",
+    "rdi": 1.541
+  },
+  {
+    "id": "LK-3206",
+    "name": "Kotapola",
+    "rdi": 3.7498
+  },
+  {
+    "id": "LK-3209",
+    "name": "Pasgoda",
+    "rdi": 0.6537
+  },
+  {
+    "id": "LK-3212",
+    "name": "Mulatiyana",
+    "rdi": 0.1187
+  },
+  {
+    "id": "LK-3215",
+    "name": "Athuraliya",
+    "rdi": 1.6734
+  },
+  {
+    "id": "LK-3218",
+    "name": "Akuressa",
+    "rdi": 0.5967
+  },
+  {
+    "id": "LK-3221",
+    "name": "Welipitiya",
+    "rdi": 2.583
+  },
+  {
+    "id": "LK-3224",
+    "name": "Malimbada",
+    "rdi": 0.4202
+  },
+  {
+    "id": "LK-3227",
+    "name": "Kaburupitiya",
+    "rdi": 0.0659
+  },
+  {
+    "id": "LK-3230",
+    "name": "Hakmana",
+    "rdi": 0.7255
+  },
+  {
+    "id": "LK-3233",
+    "name": "Kirinda Puhulwella",
+    "rdi": 0.7663
+  },
+  {
+    "id": "LK-3236",
+    "name": "Thihagoda",
+    "rdi": 0.068
+  },
+  {
+    "id": "LK-3239",
+    "name": "Weligama",
+    "rdi": 2.244
+  },
+  {
+    "id": "LK-3242",
+    "name": "Matara Four Gravets",
+    "rdi": 1.0588
+  },
+  {
+    "id": "LK-3245",
+    "name": "Devinuwara",
+    "rdi": 0.4443
+  },
+  {
+    "id": "LK-3248",
+    "name": "Dikwella",
+    "rdi": 1.1884
+  },
+  {
+    "id": "LK-3303",
+    "name": "Sooriyawewa",
+    "rdi": 0.0772
+  },
+  {
+    "id": "LK-3306",
+    "name": "Lunugamwehera",
+    "rdi": 0.7537
+  },
+  {
+    "id": "LK-3309",
+    "name": "Thissamaharama",
+    "rdi": 0.9064
+  },
+  {
+    "id": "LK-3312",
+    "name": "Hambantota",
+    "rdi": 3.5526
+  },
+  {
+    "id": "LK-3315",
+    "name": "Ambalantota",
+    "rdi": 0.6821
+  },
+  {
+    "id": "LK-3318",
+    "name": "Angunakolapelessa",
+    "rdi": 0.028
+  },
+  {
+    "id": "LK-3321",
+    "name": "Weeraketiya",
+    "rdi": 0.4689
+  },
+  {
+    "id": "LK-3324",
+    "name": "Katuwana",
+    "rdi": 0.0324
+  },
+  {
+    "id": "LK-3325",
+    "name": "Walasmulla",
+    "rdi": 0.0496
+  },
+  {
+    "id": "LK-3327",
+    "name": "Okewela",
+    "rdi": 0.0478
+  },
+  {
+    "id": "LK-3330",
+    "name": "Beliatta",
+    "rdi": 0.1022
+  },
+  {
+    "id": "LK-3333",
+    "name": "Tangalle",
+    "rdi": 0.5215
+  },
+  {
+    "id": "LK-4103",
+    "name": "Islands North (Kayts)",
+    "rdi": 5.8098
+  },
+  {
+    "id": "LK-4104",
+    "name": "Karainagar",
+    "rdi": 0.9859
+  },
+  {
+    "id": "LK-4106",
+    "name": "Valikamam West (Chankanai)",
+    "rdi": 1.3465
+  },
+  {
+    "id": "LK-4109",
+    "name": "Valikamam South West (Sandilipay)",
+    "rdi": 4.3775
+  },
+  {
+    "id": "LK-4112",
+    "name": "Valikamam North (Thllippalai)",
+    "rdi": 2.8898
+  },
+  {
+    "id": "LK-4115",
+    "name": "Valikamam South (Uduvil)",
+    "rdi": 2.412
+  },
+  {
+    "id": "LK-4118",
+    "name": "Valikamam East (Kopay)",
+    "rdi": 1.9334
+  },
+  {
+    "id": "LK-4121",
+    "name": "Vadamaradchchi South-West (Karaveddy)",
+    "rdi": 0.9127
+  },
+  {
+    "id": "LK-4124",
+    "name": "Vadamaradchchi East",
+    "rdi": 5.051
+  },
+  {
+    "id": "LK-4127",
+    "name": "Vadamaradchi North (Point Pedro)",
+    "rdi": 3.1823
+  },
+  {
+    "id": "LK-4130",
+    "name": "Thenmaradchi (Chavakachcheri)",
+    "rdi": 1.5944
+  },
+  {
+    "id": "LK-4133",
+    "name": "Nallur",
+    "rdi": 2.0454
+  },
+  {
+    "id": "LK-4136",
+    "name": "Jaffna",
+    "rdi": 5.9898
+  },
+  {
+    "id": "LK-4139",
+    "name": "Islands South (Velanai)",
+    "rdi": 4.4471
+  },
+  {
+    "id": "LK-4142",
+    "name": "Delft",
+    "rdi": 5.626
+  },
+  {
+    "id": "LK-4203",
+    "name": "Mannar Town",
+    "rdi": 6.5796
+  },
+  {
+    "id": "LK-4206",
+    "name": "Manthai West",
+    "rdi": 6.9711
+  },
+  {
+    "id": "LK-4209",
+    "name": "Madhu",
+    "rdi": 6.9141
+  },
+  {
+    "id": "LK-4212",
+    "name": "Nanaddan",
+    "rdi": 4.5445
+  },
+  {
+    "id": "LK-4215",
+    "name": "Musali",
+    "rdi": 6.1061
+  },
+  {
+    "id": "LK-4303",
+    "name": "Vavuniya North",
+    "rdi": 2.1752
+  },
+  {
+    "id": "LK-4306",
+    "name": "Vavuniya South",
+    "rdi": 1.0076
+  },
+  {
+    "id": "LK-4309",
+    "name": "Vavuniya",
+    "rdi": 4.2302
+  },
+  {
+    "id": "LK-4312",
+    "name": "Vengalacheddikulam",
+    "rdi": 6.9905
+  },
+  {
+    "id": "LK-4403",
+    "name": "Thunukkai",
+    "rdi": 2.2274
+  },
+  {
+    "id": "LK-4406",
+    "name": "Manthai East",
+    "rdi": 2.2904
+  },
+  {
+    "id": "LK-4409",
+    "name": "Puthukkudiyiruppu",
+    "rdi": 3.0137
+  },
+  {
+    "id": "LK-4412",
+    "name": "Oddusuddan",
+    "rdi": 3.0289
+  },
+  {
+    "id": "LK-4415",
+    "name": "Maritimepattu",
+    "rdi": 5.1189
+  },
+  {
+    "id": "LK-4418",
+    "name": "Welioya",
+    "rdi": 0.2046
+  },
+  {
+    "id": "LK-4503",
+    "name": "Pachchilaipalli",
+    "rdi": 3.2054
+  },
+  {
+    "id": "LK-4506",
+    "name": "Kandavalai",
+    "rdi": 2.4085
+  },
+  {
+    "id": "LK-4509",
+    "name": "Karachchi",
+    "rdi": 3.3362
+  },
+  {
+    "id": "LK-4512",
+    "name": "Poonakary",
+    "rdi": 5.1039
+  },
+  {
+    "id": "LK-5103",
+    "name": "Koralai Pattu North",
+    "rdi": 3.8125
+  },
+  {
+    "id": "LK-5104",
+    "name": "Koralai Pattu Central",
+    "rdi": 0.6405
+  },
+  {
+    "id": "LK-5106",
+    "name": "Koralai Pattu West",
+    "rdi": 0.1111
+  },
+  {
+    "id": "LK-5109",
+    "name": "Koralai Pattu",
+    "rdi": 3.7616
+  },
+  {
+    "id": "LK-5110",
+    "name": "Koralai Pattu South",
+    "rdi": 1.5533
+  },
+  {
+    "id": "LK-5115",
+    "name": "Eravur Pattu",
+    "rdi": 2.9669
+  },
+  {
+    "id": "LK-5118",
+    "name": "Manmunai North",
+    "rdi": 5.7769
+  },
+  {
+    "id": "LK-5121",
+    "name": "Manmunai West",
+    "rdi": 0.6474
+  },
+  {
+    "id": "LK-5124",
+    "name": "Kattankudy",
+    "rdi": 0.0589
+  },
+  {
+    "id": "LK-5127",
+    "name": "Manmunai Pattu",
+    "rdi": 5.2769
+  },
+  {
+    "id": "LK-5130",
+    "name": "Manmunai South West",
+    "rdi": 1.1639
+  },
+  {
+    "id": "LK-5133",
+    "name": "Porativu Pattu",
+    "rdi": 0.5795
+  },
+  {
+    "id": "LK-5136",
+    "name": "Manmunai South & Eruvil Pattu",
+    "rdi": 1.3408
+  },
+  {
+    "id": "LK-5203",
+    "name": "Dehiattakandiya",
+    "rdi": 0.2638
+  },
+  {
+    "id": "LK-5206",
+    "name": "Padiyathalawa",
+    "rdi": 0.189
+  },
+  {
+    "id": "LK-5209",
+    "name": "Mahaoya",
+    "rdi": 0.1528
+  },
+  {
+    "id": "LK-5212",
+    "name": "Uhana",
+    "rdi": 0.0917
+  },
+  {
+    "id": "LK-5215",
+    "name": "Ampara",
+    "rdi": 0.649
+  },
+  {
+    "id": "LK-5216",
+    "name": "Navithanveli",
+    "rdi": 6.6761
+  },
+  {
+    "id": "LK-5218",
+    "name": "Sammanthurai",
+    "rdi": 2.7609
+  },
+  {
+    "id": "LK-5221",
+    "name": "Kalmunai",
+    "rdi": 3.8591
+  },
+  {
+    "id": "LK-5225",
+    "name": "Sainthamaruthu",
+    "rdi": 0.054
+  },
+  {
+    "id": "LK-5227",
+    "name": "Karaitivu",
+    "rdi": 5.8417
+  },
+  {
+    "id": "LK-5230",
+    "name": "Nintavur",
+    "rdi": 0.8685
+  },
+  {
+    "id": "LK-5233",
+    "name": "Addalaichenai",
+    "rdi": 1.6788
+  },
+  {
+    "id": "LK-5234",
+    "name": "Irakkamam",
+    "rdi": 1.9705
+  },
+  {
+    "id": "LK-5236",
+    "name": "Akkaraipattu",
+    "rdi": 0.1464
+  },
+  {
+    "id": "LK-5239",
+    "name": "Alayadivembu",
+    "rdi": 2.9338
+  },
+  {
+    "id": "LK-5242",
+    "name": "Damana",
+    "rdi": 0.2275
+  },
+  {
+    "id": "LK-5245",
+    "name": "Tirukkovil",
+    "rdi": 1.1644
+  },
+  {
+    "id": "LK-5248",
+    "name": "Pottuvil",
+    "rdi": 4.2309
+  },
+  {
+    "id": "LK-5251",
+    "name": "Lahugala",
+    "rdi": 1.5215
+  },
+  {
+    "id": "LK-5303",
+    "name": "Padavi Sri Pura",
+    "rdi": 0.358
+  },
+  {
+    "id": "LK-5306",
+    "name": "Kuchchaweli",
+    "rdi": 5.933
+  },
+  {
+    "id": "LK-5309",
+    "name": "Gomarankadawala",
+    "rdi": 0.1291
+  },
+  {
+    "id": "LK-5312",
+    "name": "Morawewa",
+    "rdi": 5.1782
+  },
+  {
+    "id": "LK-5315",
+    "name": "Town & Gravets",
+    "rdi": 7.8259
+  },
+  {
+    "id": "LK-5318",
+    "name": "Thambalagamuwa",
+    "rdi": 6.8769
+  },
+  {
+    "id": "LK-5321",
+    "name": "Kantale",
+    "rdi": 3.9481
+  },
+  {
+    "id": "LK-5324",
+    "name": "Kinniya",
+    "rdi": 0.9493
+  },
+  {
+    "id": "LK-5327",
+    "name": "Muthur",
+    "rdi": 5.8941
+  },
+  {
+    "id": "LK-5330",
+    "name": "Seruvila",
+    "rdi": 6.107
+  },
+  {
+    "id": "LK-5333",
+    "name": "Verugal",
+    "rdi": 1.078
+  },
+  {
+    "id": "LK-6103",
+    "name": "Giribawa",
+    "rdi": 1.8942
+  },
+  {
+    "id": "LK-6106",
+    "name": "Galgamuwa",
+    "rdi": 1.8183
+  },
+  {
+    "id": "LK-6109",
+    "name": "Ehetuwewa",
+    "rdi": 0.7236
+  },
+  {
+    "id": "LK-6112",
+    "name": "Ambanpola",
+    "rdi": 0.5644
+  },
+  {
+    "id": "LK-6115",
+    "name": "Kotawehera",
+    "rdi": 0.1887
+  },
+  {
+    "id": "LK-6118",
+    "name": "Rasnayakapura",
+    "rdi": 3.944
+  },
+  {
+    "id": "LK-6121",
+    "name": "Nikaweratiya",
+    "rdi": 1.3545
+  },
+  {
+    "id": "LK-6124",
+    "name": "Maho",
+    "rdi": 1.4641
+  },
+  {
+    "id": "LK-6127",
+    "name": "Polpitigama",
+    "rdi": 0.1917
+  },
+  {
+    "id": "LK-6130",
+    "name": "Ibbagamuwa",
+    "rdi": 2.0798
+  },
+  {
+    "id": "LK-6133",
+    "name": "Ganewatta",
+    "rdi": 1.3842
+  },
+  {
+    "id": "LK-6136",
+    "name": "Wariyapola",
+    "rdi": 0.7274
+  },
+  {
+    "id": "LK-6139",
+    "name": "Kobeigane",
+    "rdi": 2.769
+  },
+  {
+    "id": "LK-6142",
+    "name": "Bingiriya",
+    "rdi": 2.9934
+  },
+  {
+    "id": "LK-6145",
+    "name": "Panduwasnuwara West",
+    "rdi": 3.3117
+  },
+  {
+    "id": "LK-6148",
+    "name": "Panduwasnuwara East",
+    "rdi": 0.9753
+  },
+  {
+    "id": "LK-6149",
+    "name": "Bamunakotuwa",
+    "rdi": 0.9024
+  },
+  {
+    "id": "LK-6151",
+    "name": "Maspotha",
+    "rdi": 1.748
+  },
+  {
+    "id": "LK-6154",
+    "name": "Kurunegala",
+    "rdi": 4.1012
+  },
+  {
+    "id": "LK-6157",
+    "name": "Mallawapitiya",
+    "rdi": 4.0478
+  },
+  {
+    "id": "LK-6160",
+    "name": "Mawathagama",
+    "rdi": 3.7135
+  },
+  {
+    "id": "LK-6163",
+    "name": "Rideegama",
+    "rdi": 3.0369
+  },
+  {
+    "id": "LK-6166",
+    "name": "Weerabugedara",
+    "rdi": 0.7029
+  },
+  {
+    "id": "LK-6169",
+    "name": "Kuliyapitiya East",
+    "rdi": 5.2473
+  },
+  {
+    "id": "LK-6172",
+    "name": "Kuliyapitiya West",
+    "rdi": 2.176
+  },
+  {
+    "id": "LK-6175",
+    "name": "Udubaddawa",
+    "rdi": 4.8857
+  },
+  {
+    "id": "LK-6178",
+    "name": "Pannala",
+    "rdi": 2.8112
+  },
+  {
+    "id": "LK-6181",
+    "name": "Narammala",
+    "rdi": 1.7515
+  },
+  {
+    "id": "LK-6184",
+    "name": "Alawwa",
+    "rdi": 0.2153
+  },
+  {
+    "id": "LK-6187",
+    "name": "Polgahawela",
+    "rdi": 2.7874
+  },
+  {
+    "id": "LK-6203",
+    "name": "Kalpitiya",
+    "rdi": 6.8289
+  },
+  {
+    "id": "LK-6206",
+    "name": "Vanathavilluwa",
+    "rdi": 7.8008
+  },
+  {
+    "id": "LK-6209",
+    "name": "Karuwalagaswewa",
+    "rdi": 1.8668
+  },
+  {
+    "id": "LK-6212",
+    "name": "Nawagattegama",
+    "rdi": 0.3871
+  },
+  {
+    "id": "LK-6215",
+    "name": "Puttalam",
+    "rdi": 6.2704
+  },
+  {
+    "id": "LK-6218",
+    "name": "Mundel",
+    "rdi": 8.3159
+  },
+  {
+    "id": "LK-6221",
+    "name": "Mahakumbukkadawala",
+    "rdi": 3.0206
+  },
+  {
+    "id": "LK-6224",
+    "name": "Anamaduwa",
+    "rdi": 1.3514
+  },
+  {
+    "id": "LK-6227",
+    "name": "Pallama",
+    "rdi": 5.6613
+  },
+  {
+    "id": "LK-6230",
+    "name": "Arachchikattuwa",
+    "rdi": 5.8706
+  },
+  {
+    "id": "LK-6233",
+    "name": "Chilaw",
+    "rdi": 7.2574
+  },
+  {
+    "id": "LK-6236",
+    "name": "Madampe",
+    "rdi": 4.9934
+  },
+  {
+    "id": "LK-6239",
+    "name": "Mahawewa",
+    "rdi": 5.8922
+  },
+  {
+    "id": "LK-6242",
+    "name": "Nattandiya",
+    "rdi": 7.047
+  },
+  {
+    "id": "LK-6245",
+    "name": "Wennappuwa",
+    "rdi": 3.7012
+  },
+  {
+    "id": "LK-6248",
+    "name": "Dankotuwa",
+    "rdi": 5.3094
+  },
+  {
+    "id": "LK-7103",
+    "name": "Padaviya",
+    "rdi": 0.2749
+  },
+  {
+    "id": "LK-7106",
+    "name": "Kebithigollewa",
+    "rdi": 2.0342
+  },
+  {
+    "id": "LK-7109",
+    "name": "Medawachchiya",
+    "rdi": 1.5454
+  },
+  {
+    "id": "LK-7112",
+    "name": "Mahawilachchiya",
+    "rdi": 0.2651
+  },
+  {
+    "id": "LK-7115",
+    "name": "Nuwaragam Palatha Central",
+    "rdi": 2.3856
+  },
+  {
+    "id": "LK-7118",
+    "name": "Rambewa",
+    "rdi": 3.1521
+  },
+  {
+    "id": "LK-7121",
+    "name": "Kahatagasdigiliya",
+    "rdi": 3.9469
+  },
+  {
+    "id": "LK-7124",
+    "name": "Horowpathana",
+    "rdi": 4.6429
+  },
+  {
+    "id": "LK-7127",
+    "name": "Galenbidunuwewa",
+    "rdi": 0.7509
+  },
+  {
+    "id": "LK-7130",
+    "name": "Mihinthale",
+    "rdi": 1.409
+  },
+  {
+    "id": "LK-7133",
+    "name": "Nuwaragam Palatha East",
+    "rdi": 1.6009
+  },
+  {
+    "id": "LK-7136",
+    "name": "Nachchaduwa",
+    "rdi": 2.8506
+  },
+  {
+    "id": "LK-7139",
+    "name": "Nochchiyagama",
+    "rdi": 1.3256
+  },
+  {
+    "id": "LK-7142",
+    "name": "Rajanganaya",
+    "rdi": 0.357
+  },
+  {
+    "id": "LK-7145",
+    "name": "Thambuththegama",
+    "rdi": 0.7264
+  },
+  {
+    "id": "LK-7148",
+    "name": "Thalawa",
+    "rdi": 0.4925
+  },
+  {
+    "id": "LK-7151",
+    "name": "Thirappane",
+    "rdi": 1.9956
+  },
+  {
+    "id": "LK-7154",
+    "name": "Kekirawa",
+    "rdi": 4.1665
+  },
+  {
+    "id": "LK-7157",
+    "name": "Palugaswewa",
+    "rdi": 0.4873
+  },
+  {
+    "id": "LK-7160",
+    "name": "Ipalogama",
+    "rdi": 3.0445
+  },
+  {
+    "id": "LK-7163",
+    "name": "Galnewa",
+    "rdi": 1.5591
+  },
+  {
+    "id": "LK-7166",
+    "name": "Palagala",
+    "rdi": 2.9756
+  },
+  {
+    "id": "LK-7203",
+    "name": "Higurakgoda",
+    "rdi": 0.7847
+  },
+  {
+    "id": "LK-7206",
+    "name": "Medirigiriya",
+    "rdi": 0.5227
+  },
+  {
+    "id": "LK-7209",
+    "name": "Lankapura",
+    "rdi": 4.8541
+  },
+  {
+    "id": "LK-7210",
+    "name": "Welikanda",
+    "rdi": 4.9355
+  },
+  {
+    "id": "LK-7212",
+    "name": "Dimbulagala",
+    "rdi": 0.9
+  },
+  {
+    "id": "LK-7215",
+    "name": "Thamankaduwa",
+    "rdi": 3.63
+  },
+  {
+    "id": "LK-7218",
+    "name": "Elahera",
+    "rdi": 0.1064
+  },
+  {
+    "id": "LK-8103",
+    "name": "Mahiyanganaya",
+    "rdi": 0.7097
+  },
+  {
+    "id": "LK-8106",
+    "name": "Rideemaliyadda",
+    "rdi": 0.1202
+  },
+  {
+    "id": "LK-8109",
+    "name": "Meegahakiula",
+    "rdi": 2.2234
+  },
+  {
+    "id": "LK-8112",
+    "name": "Kandeketiya",
+    "rdi": 1.3729
+  },
+  {
+    "id": "LK-8115",
+    "name": "Soranathota",
+    "rdi": 3.8139
+  },
+  {
+    "id": "LK-8118",
+    "name": "Passara",
+    "rdi": 6.5493
+  },
+  {
+    "id": "LK-8119",
+    "name": "Lunugala",
+    "rdi": 6.8444
+  },
+  {
+    "id": "LK-8121",
+    "name": "Badulla",
+    "rdi": 5.6298
+  },
+  {
+    "id": "LK-8124",
+    "name": "Hali-Ela",
+    "rdi": 5.8482
+  },
+  {
+    "id": "LK-8127",
+    "name": "Uvaparanagama",
+    "rdi": 3.2918
+  },
+  {
+    "id": "LK-8130",
+    "name": "Welimada",
+    "rdi": 5.3649
+  },
+  {
+    "id": "LK-8133",
+    "name": "Bandarawela",
+    "rdi": 5.1675
+  },
+  {
+    "id": "LK-8136",
+    "name": "Ella",
+    "rdi": 5.6434
+  },
+  {
+    "id": "LK-8139",
+    "name": "Haputale",
+    "rdi": 6.9293
+  },
+  {
+    "id": "LK-8142",
+    "name": "Haldummulla",
+    "rdi": 6.2119
+  },
+  {
+    "id": "LK-8203",
+    "name": "Bibile",
+    "rdi": 1.1738
+  },
+  {
+    "id": "LK-8206",
+    "name": "Madulla",
+    "rdi": 0.1308
+  },
+  {
+    "id": "LK-8209",
+    "name": "Medagama",
+    "rdi": 2.8435
+  },
+  {
+    "id": "LK-8212",
+    "name": "Siyambalanduwa",
+    "rdi": 0.0771
+  },
+  {
+    "id": "LK-8215",
+    "name": "Monaragala",
+    "rdi": 2.8749
+  },
+  {
+    "id": "LK-8218",
+    "name": "Badalkumbura",
+    "rdi": 3.0002
+  },
+  {
+    "id": "LK-8221",
+    "name": "Wellawaya",
+    "rdi": 0.7141
+  },
+  {
+    "id": "LK-8224",
+    "name": "Buttala",
+    "rdi": 0.4519
+  },
+  {
+    "id": "LK-8227",
+    "name": "Katharagama",
+    "rdi": 1.0805
+  },
+  {
+    "id": "LK-8230",
+    "name": "Thanamalwila",
+    "rdi": 0.1184
+  },
+  {
+    "id": "LK-8233",
+    "name": "Sevanagala",
+    "rdi": 0.055
+  },
+  {
+    "id": "LK-9103",
+    "name": "Eheliyagoda",
+    "rdi": 2.4514
+  },
+  {
+    "id": "LK-9106",
+    "name": "Kuruvita",
+    "rdi": 1.6198
+  },
+  {
+    "id": "LK-9109",
+    "name": "Kiriella",
+    "rdi": 0.8385
+  },
+  {
+    "id": "LK-9112",
+    "name": "Ratnapura",
+    "rdi": 4.2678
+  },
+  {
+    "id": "LK-9115",
+    "name": "Imbulpe",
+    "rdi": 3.1959
+  },
+  {
+    "id": "LK-9118",
+    "name": "Balangoda",
+    "rdi": 4.4224
+  },
+  {
+    "id": "LK-9121",
+    "name": "Opanayake",
+    "rdi": 1.8799
+  },
+  {
+    "id": "LK-9124",
+    "name": "Pelmadulla",
+    "rdi": 2.9881
+  },
+  {
+    "id": "LK-9127",
+    "name": "Elapatha",
+    "rdi": 1.3124
+  },
+  {
+    "id": "LK-9130",
+    "name": "Ayagama",
+    "rdi": 2.8187
+  },
+  {
+    "id": "LK-9133",
+    "name": "Kalawana",
+    "rdi": 2.94
+  },
+  {
+    "id": "LK-9136",
+    "name": "Nivithigala",
+    "rdi": 3.5772
+  },
+  {
+    "id": "LK-9139",
+    "name": "Kahawattha",
+    "rdi": 4.4668
+  },
+  {
+    "id": "LK-9142",
+    "name": "Godakawela",
+    "rdi": 4.3764
+  },
+  {
+    "id": "LK-9145",
+    "name": "Weligepola",
+    "rdi": 0.3023
+  },
+  {
+    "id": "LK-9148",
+    "name": "Embilipitiya",
+    "rdi": 0.1159
+  },
+  {
+    "id": "LK-9151",
+    "name": "Kolonna",
+    "rdi": 2.122
+  },
+  {
+    "id": "LK-9203",
+    "name": "Rambukkana",
+    "rdi": 1.9654
+  },
+  {
+    "id": "LK-9206",
+    "name": "Mawanella",
+    "rdi": 5.1685
+  },
+  {
+    "id": "LK-9209",
+    "name": "Aranayake",
+    "rdi": 2.1418
+  },
+  {
+    "id": "LK-9212",
+    "name": "Kegalle",
+    "rdi": 1.3486
+  },
+  {
+    "id": "LK-9215",
+    "name": "Galigamuwa",
+    "rdi": 1.3351
+  },
+  {
+    "id": "LK-9218",
+    "name": "Warakapola",
+    "rdi": 2.0008
+  },
+  {
+    "id": "LK-9221",
+    "name": "Ruwanwella",
+    "rdi": 2.8703
+  },
+  {
+    "id": "LK-9224",
+    "name": "Bulathkohipitiya",
+    "rdi": 3.5118
+  },
+  {
+    "id": "LK-9227",
+    "name": "Yatiyantota",
+    "rdi": 4.9479
+  },
+  {
+    "id": "LK-9230",
+    "name": "Dehiowita",
+    "rdi": 4.1012
+  },
+  {
+    "id": "LK-9233",
+    "name": "Deraniyagala",
+    "rdi": 4.0785
+  }
+]

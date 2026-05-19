@@ -1,3 +1,5 @@
+import json
+import os
 import subprocess
 
 import geopandas as gpd
@@ -8,6 +10,10 @@ from gig import Ent, EntType, GIGTable
 from utils import Log
 
 log = Log("Diversity")
+
+
+DIR_IMAGES = "output/images"
+DIR_HS = "output/hs"
 
 
 # RDI bands and colours matching the Voronoi/Pew visualisation
@@ -25,6 +31,12 @@ def _rdi_color(rdi: float) -> str:
         if lo <= rdi <= hi:
             return color
     return RDI_BANDS[-1][2]
+
+
+ENT_TYPE_LABELS = {
+    "ED": "Electoral Districts",
+    "PD": "Polling Divisions",
+}
 
 
 class Diversity:
@@ -78,8 +90,30 @@ class Diversity:
             d[ent.id] = rdi
         return d
 
+    def save_hs(self):
+        rdi_by_id = self.computer_hhcm()
+        ents = {ent.id: ent.name for ent in Ent.list_from_type(self.ent_type)}
+        data = [
+            {
+                "id": ent_id,
+                "name": ents.get(ent_id, ent_id),
+                "rdi": round(rdi, 4),
+            }
+            for ent_id, rdi in sorted(rdi_by_id.items())
+        ]
+        os.makedirs(DIR_HS, exist_ok=True)
+        output_path = os.path.join(
+            DIR_HS, f"hs_{self.ent_type.name.lower()}.json"
+        )
+        with open(output_path, "w") as f:
+            json.dump(data, f, indent=2)
+        log.info(f"HS data saved to {output_path}")
+
     def plot(self):
-        output_path = f"diversity_map_{self.ent_type.name.lower()}.png"
+        os.makedirs(DIR_IMAGES, exist_ok=True)
+        output_path = os.path.join(
+            DIR_IMAGES, f"diversity_map_{self.ent_type.name.lower()}.png"
+        )
         rdi_by_id = self.computer_hhcm()
         ents = Ent.list_from_type(self.ent_type)
 
@@ -134,10 +168,14 @@ class Diversity:
                     color="white",
                 )
 
-        # Legend
+        # Legend — include per-band region counts
+        rdi_values = list(rdi_by_id.values())
         legend_patches = [
-            mpatches.Patch(color=color, label=label)
-            for _, _, color, label in RDI_BANDS
+            mpatches.Patch(
+                color=color,
+                label=f"{label}  [{sum(lo <= v <= hi for v in rdi_values)}]",
+            )
+            for lo, hi, color, label in RDI_BANDS
         ]
         ax.legend(
             handles=legend_patches,
@@ -150,14 +188,27 @@ class Diversity:
             borderaxespad=0,
         )
 
+        ent_type_label = ENT_TYPE_LABELS.get(
+            self.ent_type.name, self.ent_type.name.title()
+        )
         ax.set_title(
-            f"Religious Diversity Index — Sri Lanka\nby {
-                self.ent_type.name.title()}",
+            f"Religious Diversity Index — Sri Lanka\n"
+            f"by {ent_type_label} ({len(ents)} regions)",
             fontsize=14,
             fontweight="bold",
             pad=12,
         )
         ax.axis("off")
+
+        fig.text(
+            0.5,
+            0.01,
+            "Methodology based on Pew Research Center's Religious Diversity Index.",
+            ha="center",
+            fontsize=7,
+            color="#555555",
+            style="italic",
+        )
 
         plt.tight_layout()
         plt.savefig(output_path, dpi=150, bbox_inches="tight")
@@ -175,5 +226,8 @@ if __name__ == "__main__":
         EntType.ED,
         EntType.PD,
     ]:
+        diversity = Diversity(ent_type)
+        diversity.save_hs()
+        diversity.plot()
         diversity = Diversity(ent_type)
         diversity.plot()

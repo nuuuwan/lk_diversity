@@ -1,0 +1,112 @@
+[
+  {
+    "id": "EC-01",
+    "name": "Colombo",
+    "rdi": 5.5616
+  },
+  {
+    "id": "EC-02",
+    "name": "Gampaha",
+    "rdi": 5.1666
+  },
+  {
+    "id": "EC-03",
+    "name": "Kalutara",
+    "rdi": 3.4217
+  },
+  {
+    "id": "EC-04",
+    "name": "Kandy",
+    "rdi": 5.0276
+  },
+  {
+    "id": "EC-05",
+    "name": "Matale",
+    "rdi": 4.0923
+  },
+  {
+    "id": "EC-06",
+    "name": "Nuwara-Eliya",
+    "rdi": 6.7792
+  },
+  {
+    "id": "EC-07",
+    "name": "Galle",
+    "rdi": 1.3569
+  },
+  {
+    "id": "EC-08",
+    "name": "Matara",
+    "rdi": 1.311
+  },
+  {
+    "id": "EC-09",
+    "name": "Hambantota",
+    "rdi": 0.7405
+  },
+  {
+    "id": "EC-10",
+    "name": "Jaffna",
+    "rdi": 3.3865
+  },
+  {
+    "id": "EC-11",
+    "name": "Vanni",
+    "rdi": 6.7565
+  },
+  {
+    "id": "EC-12",
+    "name": "Batticaloa",
+    "rdi": 5.9826
+  },
+  {
+    "id": "EC-13",
+    "name": "Digamadulla",
+    "rdi": 7.4208
+  },
+  {
+    "id": "EC-14",
+    "name": "Trincomalee",
+    "rdi": 7.9841
+  },
+  {
+    "id": "EC-15",
+    "name": "Kurunegala",
+    "rdi": 2.4577
+  },
+  {
+    "id": "EC-16",
+    "name": "Puttalam",
+    "rdi": 7.7362
+  },
+  {
+    "id": "EC-17",
+    "name": "Anuradhapura",
+    "rdi": 2.1136
+  },
+  {
+    "id": "EC-18",
+    "name": "Polonnaruwa",
+    "rdi": 2.2108
+  },
+  {
+    "id": "EC-19",
+    "name": "Badulla",
+    "rdi": 5.0402
+  },
+  {
+    "id": "EC-20",
+    "name": "Moneragala",
+    "rdi": 1.2089
+  },
+  {
+    "id": "EC-21",
+    "name": "Ratnapura",
+    "rdi": 2.7824
+  },
+  {
+    "id": "EC-22",
+    "name": "Kegalle",
+    "rdi": 3.2321
+  }
+]

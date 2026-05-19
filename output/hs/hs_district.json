@@ -1,0 +1,127 @@
+[
+  {
+    "id": "LK-11",
+    "name": "Colombo",
+    "rdi": 5.5616
+  },
+  {
+    "id": "LK-12",
+    "name": "Gampaha",
+    "rdi": 5.1666
+  },
+  {
+    "id": "LK-13",
+    "name": "Kalutara",
+    "rdi": 3.4217
+  },
+  {
+    "id": "LK-21",
+    "name": "Kandy",
+    "rdi": 5.0276
+  },
+  {
+    "id": "LK-22",
+    "name": "Matale",
+    "rdi": 4.0923
+  },
+  {
+    "id": "LK-23",
+    "name": "Nuwara Eliya",
+    "rdi": 6.7792
+  },
+  {
+    "id": "LK-31",
+    "name": "Galle",
+    "rdi": 1.3569
+  },
+  {
+    "id": "LK-32",
+    "name": "Matara",
+    "rdi": 1.311
+  },
+  {
+    "id": "LK-33",
+    "name": "Hambantota",
+    "rdi": 0.7405
+  },
+  {
+    "id": "LK-41",
+    "name": "Jaffna",
+    "rdi": 3.3591
+  },
+  {
+    "id": "LK-42",
+    "name": "Mannar",
+    "rdi": 6.8118
+  },
+  {
+    "id": "LK-43",
+    "name": "Vavuniya",
+    "rdi": 5.6575
+  },
+  {
+    "id": "LK-44",
+    "name": "Mullaitivu",
+    "rdi": 4.7419
+  },
+  {
+    "id": "LK-45",
+    "name": "Kilinochchi",
+    "rdi": 3.5257
+  },
+  {
+    "id": "LK-51",
+    "name": "Batticaloa",
+    "rdi": 5.9826
+  },
+  {
+    "id": "LK-52",
+    "name": "Ampara",
+    "rdi": 7.4208
+  },
+  {
+    "id": "LK-53",
+    "name": "Trincomalee",
+    "rdi": 7.9841
+  },
+  {
+    "id": "LK-61",
+    "name": "Kurunegala",
+    "rdi": 2.4577
+  },
+  {
+    "id": "LK-62",
+    "name": "Puttalam",
+    "rdi": 7.7362
+  },
+  {
+    "id": "LK-71",
+    "name": "Anuradhapura",
+    "rdi": 2.1136
+  },
+  {
+    "id": "LK-72",
+    "name": "Polonnaruwa",
+    "rdi": 2.2108
+  },
+  {
+    "id": "LK-81",
+    "name": "Badulla",
+    "rdi": 5.0402
+  },
+  {
+    "id": "LK-82",
+    "name": "Monaragala",
+    "rdi": 1.2089
+  },
+  {
+    "id": "LK-91",
+    "name": "Ratnapura",
+    "rdi": 2.7824
+  },
+  {
+    "id": "LK-92",
+    "name": "Kegalle",
+    "rdi": 3.2321
+  }
+]
